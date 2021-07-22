@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/accont"
+            tools:context=".infoFragment">
+
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:id="@+id/account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="account"
+                android:textSize="60dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="100dp" />
+
+            <TextView
+                android:id="@+id/txt_android"
+                android:layout_below="@+id/account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="android_tirtash"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="50dp" />
+            <TextView
+                android:layout_below="@+id/txt_android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="andariadarcode"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="50sp" />
+
+        </RelativeLayout>
